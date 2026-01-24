@@ -48,7 +48,7 @@ git ls-remote --tags origin v1.2.3
 
 ## Technical Details
 - **Previous tag location**: `1de8b3f` (J5 reorientation)
-- **New tag location**: Latest commit on branch `copilot/move-tag-v1-2-3`
+- **New tag location**: Latest commit on the current branch
 - **Tag type**: Lightweight tag
 - **Repository**: NYCUVRC/VR8-ACC-PCB
 

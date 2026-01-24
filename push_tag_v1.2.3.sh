@@ -3,13 +3,24 @@
 # Script to push the updated v1.2.3 tag to the remote repository
 # This script should be run after the tag has been moved locally
 
-echo "Pushing updated tag v1.2.3 to remote repository..."
+echo "WARNING: This will force-push tag v1.2.3 to the remote repository!"
+echo "WARNING: This will force-push tag v1.2.3 to the remote repository!"
 echo "Old location: 1de8b3f (J5 reorientation)"
 echo "New location: Latest commit on current branch"
 echo ""
 echo "Current tag points to:"
 git show v1.2.3 --no-patch --format="%H %s"
 echo ""
+
+# Ask for confirmation
+read -p "Are you sure you want to continue? (yes/no): " -r
+echo
+if [[ ! $REPLY =~ ^[Yy][Ee][Ss]$ ]]; then
+    echo "Aborted."
+    exit 0
+fi
+
+echo "Pushing tag to remote..."
 
 # Force push the tag to update it on the remote
 git push origin v1.2.3 --force
