@@ -4,7 +4,7 @@
 This document describes the process of moving Git tag `v1.2.3` to the latest commit.
 
 ## What Has Been Done
-- ✅ Local tag `v1.2.3` has been moved from commit `1de8b3f` (J5 reorientation) to commit `8191200` (latest commit)
+- ✅ Local tag `v1.2.3` has been moved from commit `1de8b3f` (J5 reorientation) to commit `e68132c` (latest commit)
 - ✅ The tag now points to the current HEAD of the branch
 
 ## What Remains
@@ -48,7 +48,7 @@ git ls-remote --tags origin v1.2.3
 
 ## Technical Details
 - **Previous tag location**: `1de8b3f` (J5 reorientation)
-- **New tag location**: `8191200` (Move tag v1.2.3 to latest commit with push script)  
+- **New tag location**: `e68132c` (Update documentation with correct commit hash for tag v1.2.3)  
 - **Tag type**: Lightweight tag
 - **Repository**: NYCUVRC/VR8-ACC-PCB
 
