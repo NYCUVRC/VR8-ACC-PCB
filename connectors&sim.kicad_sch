@@ -2471,7 +2471,7 @@
 		)
 		(uuid "743aeef9-9d66-4167-8042-7061e2a28fff")
 	)
-	(text "To IMD\n\nHV+\n\n\n\nHV-"
+	(text "To IMD\n\nIMD+\n\n\n\nIMD-"
 		(exclude_from_sim no)
 		(at 80.772 163.068 0)
 		(effects
