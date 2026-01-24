@@ -1,0 +1,231 @@
+(footprint "KT121A40LTHT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "KT12-1A-40L-THT-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 13.97 -6.35 0)
+		(layer "F.SilkS")
+		(uuid "3807c1d0-4091-4e8a-a3be-eead6b78c7f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "KT121A40LTHT"
+		(at 13.97 -6.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ec8c6e7-0582-464a-8cd7-253e357c31ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6db3dccb-b46c-456c-a711-307e21a72584")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8493e898-a4b9-4bd8-b796-bf814b539932")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.13 -11.45)
+		(end 29.07 -11.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "672fe7a0-50a4-4a12-b179-5b55af532c92")
+	)
+	(fp_line
+		(start -1.13 -1.25)
+		(end -1.13 -11.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c61d71a9-c122-4cfe-8f64-5cebd5e7004f")
+	)
+	(fp_line
+		(start 29.07 -11.45)
+		(end 29.07 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52a8fc62-1730-4c22-9c6d-ac4a023bd949")
+	)
+	(fp_line
+		(start 29.07 -1.25)
+		(end -1.13 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "508213bb-6941-4a85-9ccc-d5843f9f6817")
+	)
+	(fp_line
+		(start -2.13 -14.391)
+		(end 30.07 -14.391)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "922289f7-6859-46e3-b7ba-de5c79cf7e0b")
+	)
+	(fp_line
+		(start -2.13 1.691)
+		(end -2.13 -14.391)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22402b88-a10b-4a31-b8dc-1e7b9335e08f")
+	)
+	(fp_line
+		(start 30.07 -14.391)
+		(end 30.07 1.691)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0d8d965-9658-405f-a0e9-053579c1fb7a")
+	)
+	(fp_line
+		(start 30.07 1.691)
+		(end -2.13 1.691)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c09212d3-176f-48b5-a277-4ae9d7d80e5a")
+	)
+	(fp_line
+		(start -1.13 -11.45)
+		(end 29.07 -11.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55960d36-2502-4461-93f0-f1e697ed6571")
+	)
+	(fp_line
+		(start -1.13 -1.25)
+		(end -1.13 -11.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7eb06c7a-5f3a-4124-838f-3bf98ed8cec9")
+	)
+	(fp_line
+		(start 29.07 -11.45)
+		(end 29.07 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "774a59a2-be6d-433a-b61a-106681a0b141")
+	)
+	(fp_line
+		(start 29.07 -1.25)
+		(end -1.13 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cce2ca69-cbde-4157-bdb8-35a8fca49386")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.97 -6.35 0)
+		(layer "F.Fab")
+		(uuid "34593f2d-cc84-4890-a193-b34ae4e37bc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.381 1.381)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c31072b-be33-4e7d-9d0f-f7fe1757c6be")
+	)
+	(pad "2" thru_hole circle
+		(at 27.94 0)
+		(size 1.381 1.381)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ff81963-556c-4ef6-af10-a0f8214d8e8b")
+	)
+	(pad "3" thru_hole circle
+		(at 24.12 -12.7)
+		(size 1.381 1.381)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc095eb9-7422-442e-89f7-0012e7ee4868")
+	)
+	(pad "4" thru_hole circle
+		(at 3.82 -12.7)
+		(size 1.381 1.381)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b011bcb9-5652-4de7-9b2e-037df189ef17")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/KT12-1A-40L-THT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

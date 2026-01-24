@@ -1,0 +1,33 @@
+* IPS70R1K4P7S SPICE Model for KiCad/Ngspice
+* Based on Datasheet Rev 2.1 2018-02-13
+* 700V CoolMOS P7 Power Transistor
+* Fix: Removed inline comments and strictly formatted for Ngspice
+*
+* Pinout: 1=Gate, 2=Drain, 3=Source
+*
+.SUBCKT IPS70R1K4P7S 1 2 3
+
+* VDMOS Model parameters
+.MODEL CoolMOS_P7 VDMOS (
++ Vto=3.0
++ Kp=0.9
++ Phi=0.6
++ Rd=1.0
++ Rs=0.15
++ Rg=1.6
++ Cgs=155p
++ Cgdmax=100p
++ Cgdmin=3p
++ Bv=700
++ Ibv=1u
++ Is=10p
++ N=1.0
++ Tt=130n
++ Cjo=158p
++ Vj=0.9
+)
+
+* Instance of the model
+M1 2 1 3 3 CoolMOS_P7
+
+.ENDS IPS70R1K4P7S

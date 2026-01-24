@@ -1,0 +1,32 @@
+* IPS70R1K4P7S KiCad/Ngspice Compatible Macro Model
+* -------------------------------------------------------------------
+* Pins: 1=Drain, 2=Gate, 3=Source
+* (Please verify Pin assignment in KiCad Symbol Properties)
+* -------------------------------------------------------------------
+.SUBCKT IPS70R1K4P7S 1 2 3
+
+* --- Parasitic Resistors ---
+* Rg: Gate Resistance (Datasheet: 1.6 Ohm)
+Rg 2 20 1.6
+* Rd/Rs: Split Rdson (1.15 Ohm total)
+Rd 1 10 1.10
+Rs 3 30 0.05
+
+* --- Main Switch (NMOS) ---
+* Using basic Level 3 model which Ngspice supports well
+M1 10 20 30 30 NMOS_CORE L=2u W=1
+
+* --- Parasitic Capacitances ---
+* Fixed values approximating the nonlinear behavior
+Cgs 20 30 158p
+Cgd 20 10 5p
+Cds 10 30 130p
+
+* --- Body Diode ---
+Dbody 30 10 D_BODY
+
+* --- Models ---
+.MODEL NMOS_CORE NMOS (LEVEL=3 KP=3.8 VTO=3.0 GAMMA=0 PHI=0.6)
+.MODEL D_BODY D (IS=1n N=1 RS=0.1 TT=130n)
+
+.ENDS IPS70R1K4P7S

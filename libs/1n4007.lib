@@ -1,0 +1,24 @@
+* SPICE model rectifier diode 1N4007 (Fixed for KiCad/Ngspice)
+* Based on Diotec Semiconductor AG model
+* ---------------------------------------------------------
+.subckt 1N4007 A K params: Vrrm=1000 Vrsm=1000 Ir=5u Irsm=5u Vf=1.1 Ifav=1 Rs=.05 trr=1500n Cj=15p Eg=1.11 Xti=3
+
+* Definition of the Diode Model
+* Removed LTspice specific params: Vpk, Iave, Vp, mfg, type
+.model Rectifier D(
++ Is={Ir/40}
++ Bv={Vrsm*1.05}
++ Ibv={Ir}
++ N={.8*Vf/25m/(ln(Ifav)-ln(Ir/40))}
++ Rs={Rs}
++ Eg={Eg}
++ Xti={Xti}
++ Cjo={Cj*2}
++ M=.33
++ Tt={trr}
++ )
+
+* Connecting the Diode
+D A K Rectifier
+
+.ends

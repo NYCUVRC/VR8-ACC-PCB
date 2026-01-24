@@ -1,0 +1,231 @@
+(footprint "SPU01M12"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPU01")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "734660a4-0d0d-487e-b027-33c89375fbcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SPU01M12"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1668cb9a-3b8d-4acf-9930-5be6a0b72b3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "905f268d-a38c-4998-aadc-7cacdec92bca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c8f7052-10fc-4ca4-98db-2e0135b0a4e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.75 -3.05)
+		(end 9.75 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff27476d-3181-47ea-8a66-09b7d565c127")
+	)
+	(fp_line
+		(start -9.75 3.05)
+		(end -9.75 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "410e619b-d8a2-4180-a07f-c2d5eda632e7")
+	)
+	(fp_line
+		(start 9.75 -3.05)
+		(end 9.75 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d300bd93-61c4-45c5-9b6c-5bfc0f8c28ca")
+	)
+	(fp_line
+		(start 9.75 3.05)
+		(end -9.75 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31a9cfe0-9fd4-4dd0-ae8b-bed508fc8d17")
+	)
+	(fp_line
+		(start -10.75 -4.05)
+		(end 10.75 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9553b8e9-4aee-4afa-9d91-f94e5c809c57")
+	)
+	(fp_line
+		(start -10.75 4.05)
+		(end -10.75 -4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4db1a9e5-da5e-4746-ae8f-90e13492df71")
+	)
+	(fp_line
+		(start 10.75 -4.05)
+		(end 10.75 4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "448a447a-b8ae-4335-98eb-6694edac2594")
+	)
+	(fp_line
+		(start 10.75 4.05)
+		(end -10.75 4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f31de08-ab55-4746-ba2b-972a444321ea")
+	)
+	(fp_line
+		(start -9.75 -3.05)
+		(end 9.75 -3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a156521b-0c6f-4376-8fc8-0042de817b46")
+	)
+	(fp_line
+		(start -9.75 3.05)
+		(end -9.75 -3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f769a6b7-ef8a-4cdb-8de0-d569145ab87e")
+	)
+	(fp_line
+		(start 9.75 -3.05)
+		(end 9.75 3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ea492a6-8dc6-438a-8653-46219ba814e3")
+	)
+	(fp_line
+		(start 9.75 3.05)
+		(end -9.75 3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ce2ddb9-9b57-415f-9877-334788260c0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d0b00745-8f38-4a68-ae94-48054bc82a87")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.65 -1.575)
+		(size 1.303 1.303)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41cf9a46-2d67-49f7-a7ac-d5dd3ea3c5f6")
+	)
+	(pad "2" thru_hole circle
+		(at -5.11 -1.575)
+		(size 1.303 1.303)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79e11fe9-4eef-4363-9c95-3c91e3e3c676")
+	)
+	(pad "4" thru_hole circle
+		(at -0.03 -1.575)
+		(size 1.303 1.303)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9498703a-7b84-46fd-a44b-d245a5efeb1b")
+	)
+	(pad "6" thru_hole circle
+		(at 5.05 -1.575)
+		(size 1.303 1.303)
+		(drill 0.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc5a5b57-b3af-4dc6-89c3-20d15423d940")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Samacsys.3dshapes/SPU01M-12.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

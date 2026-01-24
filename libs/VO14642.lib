@@ -1,0 +1,29 @@
+* VO14642 High Speed Solid State Relay SPICE Model (High Sensitivity)
+* -------------------------------------------------------------------
+* Pinout: 1=A, 2=K, 4=S1, 5=DC, 6=S2
+* -------------------------------------------------------------------
+.SUBCKT VO14642 1 2 4 5 6
+
+* --- Input Stage (LED) ---
+R_limit 1 1x 40
+Vsense  1x 1y 0
+D_LED   1y 2 D_IR_EMITTER
+
+* --- Control Stage (Photovoltaic Isolation) ---
+* FIXED: Gain increased to 0.06 to match Typical If_on = 0.5mA
+* This allows operation with 12V + 10k resistor (~1mA)
+F1 5 7 Vsense 0.06
+R_gate 7 5 100k
+C_gate 7 5 800p
+D_clamp 5 7 D_Zener
+
+* --- Output Stage (Back-to-Back MOSFETs) ---
+M1 4 7 5 5 NMOS_PWR
+M2 6 7 5 5 NMOS_PWR
+
+* --- Models ---
+.MODEL D_IR_EMITTER D(IS=10p N=2 RS=10 CJO=20p)
+.MODEL D_Zener D(BV=8 IBV=10u)
+.MODEL NMOS_PWR NMOS(Level=1 KP=10 VTO=3.0 RD=0.02 RS=0.04 lambda=0.001)
+
+.ENDS VO14642
