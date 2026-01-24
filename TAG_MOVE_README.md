@@ -4,7 +4,7 @@
 This document describes the process of moving Git tag `v1.2.3` to the latest commit.
 
 ## What Has Been Done
-- ✅ Local tag `v1.2.3` has been moved from commit `1de8b3f` (J5 reorientation) to commit `e68132c` (latest commit)
+- ✅ Local tag `v1.2.3` has been moved from commit `1de8b3f` (J5 reorientation) to the latest commit on this branch
 - ✅ The tag now points to the current HEAD of the branch
 
 ## What Remains
@@ -48,9 +48,11 @@ git ls-remote --tags origin v1.2.3
 
 ## Technical Details
 - **Previous tag location**: `1de8b3f` (J5 reorientation)
-- **New tag location**: `e68132c` (Update documentation with correct commit hash for tag v1.2.3)  
+- **New tag location**: Latest commit on branch `copilot/move-tag-v1-2-3`
 - **Tag type**: Lightweight tag
 - **Repository**: NYCUVRC/VR8-ACC-PCB
+
+To see the exact commit hash the tag points to, run: `git show v1.2.3 --no-patch --format="%H %s"`
 
 ## Why Manual Push is Required
 Due to security constraints in the automated environment, Git tags cannot be pushed automatically. 

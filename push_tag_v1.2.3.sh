@@ -5,7 +5,10 @@
 
 echo "Pushing updated tag v1.2.3 to remote repository..."
 echo "Old location: 1de8b3f (J5 reorientation)"
-echo "New location: e68132c (Update documentation with correct commit hash for tag v1.2.3)"
+echo "New location: Latest commit on current branch"
+echo ""
+echo "Current tag points to:"
+git show v1.2.3 --no-patch --format="%H %s"
 echo ""
 
 # Force push the tag to update it on the remote
