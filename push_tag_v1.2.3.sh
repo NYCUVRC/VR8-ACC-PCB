@@ -4,7 +4,6 @@
 # This script should be run after the tag has been moved locally
 
 echo "WARNING: This will force-push tag v1.2.3 to the remote repository!"
-echo "WARNING: This will force-push tag v1.2.3 to the remote repository!"
 echo "Old location: 1de8b3f (J5 reorientation)"
 echo "New location: Latest commit on current branch"
 echo ""
