@@ -31915,7 +31915,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "VR8-ACC-PCB\nv1.2.3"
+	(gr_text "VR8-ACC-PCB\nv1.2.4"
 		(at 77 91 0)
 		(layer "F.SilkS")
 		(uuid "84f864ee-7172-4e28-ae51-fe356f425ee6")
