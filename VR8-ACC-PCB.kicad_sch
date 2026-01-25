@@ -6425,7 +6425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12d10de8-dc01-4286-a9da-b5c0f47d9a90")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 196.85 125.7299 90)
 			(effects
 				(font
@@ -6641,7 +6641,7 @@
 		(instances
 			(project "Acc PCB"
 				(path "/351a0cd1-2107-41e5-ac44-a6aef25d291e"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9341,7 +9341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f7b8fe0-393b-4627-afd9-c93fbf807e67")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 53.34 39.3699 90)
 			(effects
 				(font
@@ -9557,7 +9557,7 @@
 		(instances
 			(project ""
 				(path "/351a0cd1-2107-41e5-ac44-a6aef25d291e"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
