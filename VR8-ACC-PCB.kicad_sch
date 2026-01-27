@@ -2457,7 +2457,7 @@
 		(uuid "70481f25-8693-4cf7-81cd-92151f535d09")
 	)
 	(junction
-		(at 241.3 72.39)
+		(at 250.19 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71b8d027-16f9-41f1-a94e-1eee6497629e")
@@ -2721,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "13a7c016-fe7c-4f05-8a80-5a847f120192")
+	)
+	(wire
+		(pts
+			(xy 240.03 62.23) (xy 242.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145f12d1-cd66-4f5c-aabe-422c758cb487")
 	)
 	(wire
 		(pts
@@ -3044,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 55.88) (xy 241.3 57.15)
+			(xy 250.19 55.88) (xy 250.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3264,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 62.23) (xy 233.68 62.23)
+			(xy 228.6 62.23) (xy 232.41 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 243.84 72.39)
+			(xy 250.19 72.39) (xy 252.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 90.17) (xy 241.3 88.9)
+			(xy 250.19 90.17) (xy 250.19 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 72.39) (xy 255.27 72.39)
+			(xy 260.35 72.39) (xy 264.16 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3494,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 241.3 73.66)
+			(xy 250.19 72.39) (xy 250.19 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +3854,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 67.31) (xy 241.3 72.39)
+			(xy 250.19 67.31) (xy 250.19 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3962,7 +3972,7 @@
 	)
 	(global_label "RTML"
 		(shape input)
-		(at 255.27 72.39 0)
+		(at 264.16 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3972,7 +3982,7 @@
 		)
 		(uuid "2fdff5d5-cf16-414d-88ab-8482f5cb50fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.9723 72.39 0)
+			(at 271.8623 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4192,7 @@
 	)
 	(global_label "RTML_enable"
 		(shape input)
-		(at 241.3 55.88 90)
+		(at 250.19 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4192,7 +4202,7 @@
 		)
 		(uuid "7db7adcc-a77d-45ab-9812-1d823eb9641d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 40.9207 90)
+			(at 250.19 40.9207 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7583,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 90.17 0)
+		(at 250.19 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7582,7 +7592,7 @@
 		(fields_autoplaced yes)
 		(uuid "2890b9c4-cdfb-4931-9b25-c8690df01d8f")
 		(property "Reference" "#PWR015"
-			(at 241.3 96.52 0)
+			(at 250.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 95.25 0)
+			(at 250.19 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 90.17 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +7618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 90.17 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 90.17 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8109,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 247.65 72.39 90)
+		(at 256.54 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8108,7 +8118,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d77b0a1-fbaa-4cf1-aed8-d5deda555835")
 		(property "Reference" "F4"
-			(at 247.65 66.04 90)
+			(at 256.54 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8126,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 247.65 68.58 90)
+			(at 256.54 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8134,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P30.48mm_Horizontal"
-			(at 247.65 74.168 90)
+			(at 256.54 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 72.39 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8152,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 247.65 72.39 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8161,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 247.65 72.39 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8170,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 247.65 72.39 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8179,7 @@
 			)
 		)
 		(property "Sim.Params" "r=0"
-			(at 247.65 72.39 0)
+			(at 256.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8188,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8197,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8206,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8215,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8224,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8233,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8242,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8251,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8260,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8269,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +8278,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +8287,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8296,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8305,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " 0ADKP1000-RE "
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8314,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 530-0ADKP1000-RE "
-			(at 247.65 72.39 90)
+			(at 256.54 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9564,35 +9574,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GDS")
-		(at 238.76 62.23 0)
+		(lib_id "Device:R")
+		(at 236.22 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "706f03fb-8b1c-40eb-b8b5-c19f247dfaf0")
-		(property "Reference" "Q3"
-			(at 245.11 60.9599 0)
+		(uuid "7016b1cc-7355-4e68-8bf2-0c02d00acb3c")
+		(property "Reference" "R25"
+			(at 236.22 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_Depletion_GDS"
-			(at 245.11 63.4999 0)
+		(property "Value" "10k"
+			(at 236.22 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
-			(at 238.76 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 236.22 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,7 +9609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,44 +9617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
-			(at 238.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "libs/IPS70R1K4P7S.lib"
-			(at 238.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "IPS70R1K4P7S"
-			(at 238.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 238.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 238.76 62.23 0)
+		(property "Description" "Voltage Indicator Resistor (>47kohm)"
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9627,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +9636,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9645,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9654,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9663,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9672,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9681,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,16 +9690,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 238.76 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPS70R1K4P7SAKMA1"
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9736,7 +9699,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,7 +9708,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +9717,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +9726,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +9735,248 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 238.76 62.23 0)
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" " 667-ERJ-P08J103V "
+			(at 236.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "138d72ce-9774-4a05-a92b-7a2d1df067c2")
+		)
+		(pin "1"
+			(uuid "e724b7b9-0cc9-431e-80b9-5430571e65f4")
+		)
+		(instances
+			(project "VR8-ACC-PCB"
+				(path "/351a0cd1-2107-41e5-ac44-a6aef25d291e"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GDS")
+		(at 247.65 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "706f03fb-8b1c-40eb-b8b5-c19f247dfaf0")
+		(property "Reference" "Q3"
+			(at 254 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_Depletion_GDS"
+			(at 254 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET gate/drain/source"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "libs/IPS70R1K4P7S.lib"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "IPS70R1K4P7S"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPS70R1K4P7SAKMA1"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9985,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 726-IPS70R1K4P7AKMA1 "
-			(at 238.76 62.23 0)
+			(at 247.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +10013,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 77.47 180)
+		(at 250.19 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9818,7 +10022,7 @@
 		(fields_autoplaced yes)
 		(uuid "753aeb44-98bb-409c-a9cf-c4140ea0ea95")
 		(property "Reference" "R19"
-			(at 243.84 76.1999 0)
+			(at 252.73 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +10031,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 243.84 78.7399 0)
+			(at 252.73 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +10040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 243.078 77.47 90)
+			(at 251.968 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,7 +10049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +10058,7 @@
 			)
 		)
 		(property "Description" "Voltage Indicator Resistor (>47kohm)"
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9863,7 +10067,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,7 +10076,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +10085,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +10094,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +10103,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +10112,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,7 +10121,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +10130,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +10139,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +10148,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +10157,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +10166,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +10175,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +10184,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 667-ERJ-P08J103V "
-			(at 241.3 77.47 0)
+			(at 250.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +11190,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 241.3 85.09 90)
+		(at 250.19 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10994,7 +11198,7 @@
 		(dnp no)
 		(uuid "b196bf4f-c04a-47a4-aa4f-a861330f843d")
 		(property "Reference" "D8"
-			(at 245.11 85.4074 90)
+			(at 254 85.4074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11207,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 245.11 87.9474 90)
+			(at 254 87.9474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11216,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,7 +11234,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11243,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +11252,7 @@
 			)
 		)
 		(property "Sim.Library" "libs/1n4007.lib"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11261,7 @@
 			)
 		)
 		(property "Sim.Name" "1N4007"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11270,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 241.3 85.09 0)
+			(at 250.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11279,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,7 +11288,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +11297,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11102,7 +11306,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,7 +11315,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11120,7 +11324,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,7 +11333,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,7 +11342,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11147,7 +11351,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11360,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11165,7 +11369,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +11378,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11387,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 241.3 85.09 90)
+			(at 250.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
